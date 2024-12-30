@@ -1,0 +1,33 @@
+.table-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards-budget-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #fff;
+  box-shadow: 2px 2px 24px var(--shadow-color);
+  padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+}
+/* Contenedor principal que usa grid */
+.budget-container {
+  display: grid;
+  grid-template-columns: 1fr 300px; /* La tabla ocupa 1fr y las tarjetas 300px */
+  gap: 20px; /* Espacio entre la tabla y las tarjetas */
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Estilos para cada tarjeta */
+
+/* Responsive: Cuando la pantalla es pequeña, las columnas se apilan */
+@media (max-width: 768px) {
+  .budget-container {
+    grid-template-columns: 1fr; /* Las columnas se apilan en pantallas pequeñas */
+  }
+}

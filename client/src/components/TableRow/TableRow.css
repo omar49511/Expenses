@@ -1,0 +1,56 @@
+/* Tabla general */
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  position: relative;
+}
+.table-cell {
+  flex: 1;
+}
+.amount {
+  text-align: right;
+}
+.menu-button {
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  background-color: #fff;
+  color: #868998;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 10px;
+  position: absolute; /* Fija el menú a la fila */
+  top: 100%; /* Posiciónalo justo debajo del botón */
+  left: 0; /* O ajústalo según tu diseño, por ejemplo, right: 0 */
+  transform: translateX(
+    -50%
+  ); /* Centra el menú horizontalmente si es necesario */
+  white-space: nowrap; /* Evita que el contenido se divida en varias líneas */
+}
+
+.dropdown-option {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-option:hover {
+  background-color: #e0e0e0;
+}
+
+.dropdown-option.close {
+  color: #ff4d4d;
+}

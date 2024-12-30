@@ -1,0 +1,23 @@
+.SubmitButton {
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  cursor: pointer;
+}
+.SubmitButton--primary {
+  background: #4caf50;
+  color: #ffffff;
+}
+.SubmitButton--primary:hover {
+  background: #43a047;
+}
+.SubmitButton--secondary {
+  background: transparent;
+  border: 2px solid #4caf50;
+  color: #4caf50;
+}
+.SubmitButton--secondary:hover {
+  background-color: #4caf50;
+  color: white;
+}

@@ -1,0 +1,71 @@
+.card {
+  background-color: #ffcce7; /* Color rosado */
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+  height: 120px;
+}
+.card-header {
+  background-color: #7a2946;
+  border-radius: 8px 8px 0 0;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.card-header h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.card-content {
+  padding-block: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.amount {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Colores personalizados */
+.red {
+  background-color: #ffbddd;
+  color: #39090a;
+}
+.green {
+  background-color: #e3f1c5;
+  color: #203422;
+}
+
+.yellow {
+  background-color: #ffec9e;
+  color: #762806;
+}
+
+.blue {
+  background-color: #d2e0fb;
+  color: #0a1c24;
+}
+
+.header-green {
+  background-color: #72bf78;
+  color: #fff;
+}
+
+.header-yellow {
+  background-color: #ffbb70;
+  color: #fff;
+}
+
+.header-blue {
+  background-color: #8eaccd;
+  color: #fff;
+}

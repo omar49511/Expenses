@@ -1,0 +1,124 @@
+.reusable-table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.267);
+}
+
+.table-title {
+  background-color: #8b5f88;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.table-content {
+  padding: 10px; /* Opcional: separa los elementos del borde */
+}
+
+.scrollable-container {
+  max-height: 132px; /* Ajusta según el tamaño deseado */
+  overflow-y: auto; /* Activa el scroll vertical */
+  padding: 10px; /* Opcional: separa los elementos del borde */
+}
+
+.scrollable-container::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: hsl(228, 8%, 85%);
+}
+
+.table-header,
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  background-color: #b68fb3;
+  color: #331f30;
+}
+
+.table-footer {
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #b68fb3;
+  color: #331f30;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  background-color: #8b5f88;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #a46aa0;
+}
+
+.blue {
+  background-color: #d2e0fb;
+  color: #0a1c24;
+}
+.red {
+  background-color: #ffbddd;
+  color: #39090a;
+}
+.yellow {
+  background-color: #ffd8a9;
+  color: #441506;
+}
+
+.back-yellow {
+  background-color: #9b7144;
+}
+.back-red {
+  background-color: #8e3e63;
+}
+.back-blue {
+  background-color: #748ca7;
+}
+
+.hover-yellow {
+  background-color: #9b7144;
+}
+.hover-yellow:hover {
+  background-color: #d69c5e;
+}
+.hover-red {
+  background-color: #8e3e63;
+}
+.hover-red:hover {
+  background-color: #b95282;
+}
+.hover-blue {
+  background-color: #748ca7;
+}
+.hover-blue:hover {
+  background-color: #91adce;
+}
