@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import InputField from "../components/InputField/InputField";
 
 export default function Login() {
@@ -82,7 +83,8 @@ export default function Login() {
           Login
         </button>
 
-        <button
+        <Link
+          to="/register"
           style={{
             width: "100%",
             padding: "10px",
@@ -97,7 +99,7 @@ export default function Login() {
           }}
         >
           Register
-        </button>
+        </Link>
       </div>
     </div>
   );

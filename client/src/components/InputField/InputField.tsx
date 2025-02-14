@@ -3,7 +3,7 @@ import { useState } from "react";
 type TypesInputs = "text" | "password" | "email";
 
 interface InputFieldProps {
-  label: string;
+  label?: string;
   name?: string;
   type: TypesInputs;
   value?: string;
